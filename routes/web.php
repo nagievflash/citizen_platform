@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/logout', function(){
+   Auth::logout();
+   return Redirect::to('login');
+});
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/address/{method}', 'Address\SuggestController@index')->name('address');
