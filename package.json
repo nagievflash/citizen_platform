@@ -30,7 +30,7 @@
         "gulp-sourcemaps": "^2.6.4",
         "gulp-util": "^3.0.8",
         "laravel-mix": "^4.0.7",
-        "lodash": "^4.17.13",
+        "lodash": "^4.17.21",
         "merge-stream": "^1.0.1",
         "minimatch": "^3.0.4",
         "node-sass": "^4.5.3",
